@@ -1,4 +1,8 @@
 from util import util as f2
 
+def print_test(txt:str):
+    print("*** running in file1.py ")
+    f2.print_test(txt)
+
 if __name__ == '__main__':
-    f2.print_test("hello")
+    print_test("hello")
